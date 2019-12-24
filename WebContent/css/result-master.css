@@ -1,0 +1,207 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	/*background:#f7f7f7;*/
+	color:#2b3f55;
+	font-family:"Microsoft Yahei";
+	background-image:url("../image/bg.png");
+}
+
+
+.output{
+	width:250px;
+	/*margin:0 auto;*/
+	height:380px;
+	position:fixed;
+	top:134px;
+	left:556px;
+	/*border:.6px solid #41B883;*/
+}
+.outputWrap{
+	height:512px;
+}
+
+.card{
+	width:250px;
+	height:250px;
+	/*background:#fff;*/
+	margin:0 auto;
+	border-radius:12px;
+	box-shadow:0px 0px 3px 1px rgba(0,0,0,0.3);
+	/*border:.6px solid #41B883;*/
+	position:relative;
+	margin-bottom:5px;
+}
+ /*card上的card（用于展示信息）会重叠在一起*/
+.cards{
+	width:250px;
+	height:250px;
+	background:#fff;
+	border-radius:12px;
+	/*box-shadow:0px 0px 3px 1px rgba(0,0,0,0.3);*/
+	border:.5px solid #393e46;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:88;
+	transition:all 1s;
+}
+.select .right{
+	width:90px;
+	height:90px;
+	border-radius:100%;
+	background:#41B883;
+	text-align:center;
+	line-height:88px;
+	font-size:1.2em;
+	color:white;
+}
+.select .false{
+	width:90px;
+	height:90px;
+	border-radius:100%;
+	background:#c70d3a;
+	text-align:center;
+	line-height:88px;
+	font-size:1.2em;
+	color:white;
+}
+
+.select{
+	margin-top:30px;
+	display:flex;
+	justify-content:space-around;
+}
+.select .false:hover{
+	cursor:pointer;
+	opacity:0.4;
+}
+
+.select .right:hover{
+	cursor:pointer;
+	opacity:0.4;
+}
+
+.select .right:active{
+	color:#41B883;
+	background:#fcf9ea;
+	cursor:pointer;
+	box-shadow:0 0 10px 5px #41B883 inset;
+}
+
+.select .false:active{
+	background:#fcf9ea;
+	color:#c70d3a;
+	cursor:pointer;
+	box-shadow:0 0 10px 5px #c70d3a inset;
+}
+
+.cardSet{
+	width:383px;
+	/*height:547px;*/
+	position:absolute;
+	padding:20px;
+	top:133px;
+	right:20px;
+	background:#fff;
+	border-radius:12px;
+	box-shadow:0px 0px 3px 1px rgba(0,0,0,0.3);
+	display:flex;
+	justify-content:flex-start;
+	flex-wrap:wrap;
+}
+
+.littlecard{
+	width:95px;
+	height:50px;
+	margin-bottom:20px;
+	margin-right:19px;
+	border-radius:7px;
+	color:white;
+	
+	font-size:18px;
+	line-height:45px;
+	text-align:center;
+}
+
+.card table{
+	width:100%;
+	height:100%;
+	/*border:1px solid pink;*/
+	text-align:center;
+	vertical:middle;
+	font-size:27px;
+	line-height:120px;
+	font-weight:bold;
+}
+
+footer{
+	text-align:center;
+	margin-top:79px;
+	color:#2b3f55;
+	padding:2px;
+	letter-spacing:5px;
+	position:fixed;
+	bottom:7px;
+	text-align:center;
+	width:100%;
+}
+
+footer p{
+	font-size:22px;
+	font-weight:bold;
+}
+#theFirstLittleCard{
+	background:white;
+	font-size:20px;
+	line-height:45px;
+	text-align:center;
+	color:#2b3f55;
+	border:1px solid #c70d3a;
+}
+
+#theFirstLittleCard:hover{
+	background:#ef6c57;
+	color:white;
+}
+
+.header{
+	position:fixed;
+	top:0;
+	left:0;
+	padding:17px 50px;
+	width:100%;
+	background:#2b3f55;
+	font-size:25px;
+}
+
+#lateStudents{
+	color:white;
+	float:right;
+	padding-right:5px;
+}
+
+.header a{
+	text-decoration:none;
+	margin-right:40px;
+	font-weight:lighter;
+	color:#6C757D;
+	font-weight:400;
+}
+.header a:hover{
+	color:white;
+}
+#index{
+	margin-left:40px;
+}
+.header>span{
+	margin-right:15px;
+	color:white;
+}
+
+#form{
+	display:none;
+}
