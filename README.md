@@ -1,4 +1,5 @@
 # MyDemo
+# 一个课堂随机点名web应用（使用Java开发）
 # 运行方式
 * 将项目导入eclipse等ide中
 * 将项目部署到tomcat中
